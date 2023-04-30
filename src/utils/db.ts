@@ -4,6 +4,12 @@
  * @param {string} userId - uid
  * @returns {string}
  */
-export function getUserProfilePath(userId: string): string {
+function getUserProfilePath(userId: string): string {
   return "users/" + userId + "/profile";
 }
+
+const DB_UTILS = {
+  getUserProfilePath,
+};
+
+export default DB_UTILS;
