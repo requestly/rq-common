@@ -1,3 +1,18 @@
+src/
+
+#build tools
+.travis.yml
+.jenkins.yml
+.codeclimate.yml
+
+#linters
+.jscsrc
+.jshintrc
+.eslintrc*
+
+#editor settings
+.idea
+.editorconfig
 # Logs
 logs
 *.log
@@ -34,12 +49,6 @@ bower_components
 
 # node-waf configuration
 .lock-wscript
-
-# Transpiled files
-build/
-
-# Compiled binary addons (https://nodejs.org/api/addons.html)
-build/Release
 
 # Dependency directories
 node_modules/
