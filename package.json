@@ -46,7 +46,7 @@
     "url": "https://github.com/requestly/rq-common/issues"
   },
   "dependencies": {
-    "tslib": "~2.5"
+    "tslib": "~2.6.2"
   },
   "volta": {
     "node": "16.15"
